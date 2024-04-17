@@ -15,11 +15,12 @@ function App() {
   return (
     <>
       <Home>
-        <HeaderBlog></HeaderBlog>
-      </Home>
+        <HeaderBlog></HeaderBlog> 
+     
       <Main>
-        <Section><h1 className='text-white'>hola, como vas</h1></Section>
+       <Section></Section>
       </Main>
+      </Home>
       </>
   )
 }
