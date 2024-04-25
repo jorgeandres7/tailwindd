@@ -1,6 +1,7 @@
 import React from 'react'
 import { Noticia } from '../Noticia/Noticia'
 import { extras } from '../Noticias/Noticias'
+<<<<<<< HEAD
 import new2 from '../../assets/Images/Dos.png'
 export const Section = () => {
   return (
@@ -25,5 +26,30 @@ export const Section = () => {
 }
  </section>
  </>
+=======
+
+
+export const Section = () => {
+  return (
+    <>
+      <section className='bg-black h-80 w-2/5'>
+       
+
+      </section>
+      <section className='bg-current-700 h-100 w-2/5 border-white'>
+      {extras.map(noticia => (
+          <Noticia
+            key={noticia.id}  // Añadido la propiedad key con el valor único del id
+            idNews={noticia.id}
+            img={noticia.img}
+            date={noticia.date}
+            Description={noticia.descripcion}
+            
+          />
+        ))}
+      </section>
+    </>
+>>>>>>> b940f83ffc919bbaac23b468149fc39526ea867d
   )
 }
+
