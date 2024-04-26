@@ -23,9 +23,10 @@ function App() {
        <Section></Section>
        
       </Main>
-    <Footer>
-      <Slider></Slider>
+   <Footer>
+      <Slider/>
       </Footer>
+     
       </Home>
       </>
   )

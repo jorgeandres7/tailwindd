@@ -1,20 +1,12 @@
-<<<<<<< HEAD
 import new1 from '../../assets/Images/Uno.png'
 
  import new3 from '../../assets/Images/Tres.png'
  import new4 from '../../assets/Images/Cuatro.png'
 
-=======
-
- import new2 from '../../assets/Images/Dos.png'
- import new3 from '../../assets/Images/Tres.png'
- import new4 from '../../assets/Images/Cuatro.png'
->>>>>>> b940f83ffc919bbaac23b468149fc39526ea867d
 
 
 
 export const extras = [
-<<<<<<< HEAD
     {
         id:1,
         tittle:'YAPER',
@@ -25,17 +17,6 @@ export const extras = [
 
     {
         tittle:'ROMARIO VUELVE A LAS CANCHAS',
-=======
-
-    {
-id:2,
-img: new2,
-date: '16 abril 2024',
-descripcion:'El Barça se despide de la Champions tras caer frente al PSG (1-4) en un partido marcado por la expulsión de Ronald Araújo La expulsión de Araujo y el penalti de Cancelo marcaron un partido en el que los culés empezaron con ventaja (1-4)'
-
-    },
-    {
->>>>>>> b940f83ffc919bbaac23b468149fc39526ea867d
         id:3,
         img: new3,
         date: '17 abril de 2024 ',
